@@ -1,6 +1,6 @@
 # FOSSMEC Website
 
-The official website of **FOSSMEC**, the Free and Open Source Software community at Model Engineering College, Thrikkakara.
+Student-built website of **FOSSMEC** (as part of trainee recruitment project), the Free and Open Source Software community at Model Engineering College, Thrikkakara.
 
 **Live site:** _add link after deployment_
 
