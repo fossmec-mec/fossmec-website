@@ -3,7 +3,7 @@
 A student-built website of **FOSSMEC**, the Free and Open Source Software community at Model Engineering College, Thrikkakara, made as part of trainee recruitment task.
 The club's official GitHub is [github.com/FossMec](https://github.com/FossMec).
 
-**Live site:** _add link after deployment_
+**Live site:** [fossmec-mec.github.io/fossmec-website](https://fossmec-mec.github.io/fossmec-website/)
 
 ## Idea
 
@@ -44,7 +44,8 @@ Anyone can help, including with non-code work. Open an issue to suggest an idea 
 
 ## Screenshots
 
-_Add screenshots here._
+![Desktop view](images/screenshot-desktop.png)
+![Mobile view](images/screenshot-mobile.png)
 
 ## AI disclosure
 
