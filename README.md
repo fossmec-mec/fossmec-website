@@ -1,6 +1,7 @@
 # FOSSMEC Website
 
-Student-built website of **FOSSMEC** (as part of trainee recruitment project), the Free and Open Source Software community at Model Engineering College, Thrikkakara.
+A student-built website of **FOSSMEC**, the Free and Open Source Software community at Model Engineering College, Thrikkakara, made as part of trainee recruitment task.
+The club's official GitHub is [github.com/FossMec](https://github.com/FossMec).
 
 **Live site:** _add link after deployment_
 
@@ -15,17 +16,27 @@ Open source in practice. This site is meant to be a project people can take part
 - **Events & Activities**: a git-log style timeline of past events
 - **Gallery**: moments from the community (placeholders until real photos are added)
 - **Contact**: how to reach us
+- **Inside FOSSMEC**: the path from idea to event (currently a static board; a live GitHub feed is planned)
+- **Contribute**: suggest an idea, volunteer or improve this site
 
-More sections (Inside FOSSMEC, Contribute) are in progress.
+## Design inspiration
+
+The look is inspired by the tools open-source developers use every day: the terminal, `git log` and README files. Navigation links are styled like file paths (`~/home`), the events section reads like a commit history, and the About section is a README. Dark navy with yellow and green accents and JetBrains Mono throughout give it a terminal feel.
 
 ## Built with
 
 Plain HTML, CSS and JavaScript. No frameworks, no build step.
+Font: JetBrains Mono (Google Fonts).
+Hosted on GitHub Pages.
 
 ## Run it locally
 
-1. Clone this repository.
-2. Open `index.html` in a browser.
+```
+git clone https://github.com/fossmec-mec/fossmec-website.git
+cd fossmec-website
+```
+
+Then open `index.html` in a browser. No install needed.
 
 ## Contributing
 
@@ -37,20 +48,29 @@ _Add screenshots here._
 
 ## AI disclosure
 
-This project was developed with assistance from Claude (an AI assistant by Anthropic) for planning the concept, explaining concepts, and suggesting code. The content, decisions and final code were reviewed and edited by the project author.## AI disclosure
+**In short:** the concept, content and decisions are mine. ChatGPT and Claude helped with design exploration and with writing and debugging code, which I reviewed, edited and tested.
 
-This project was built with the help of two AI assistants: ChatGPT (OpenAI) and Claude (Anthropic).
+### What I did
+- Came up with the concept, "open source in practice"
+- Decided the structure and what to build or leave out, for example real empty states instead of fake demo content
+- Provided all the club content: events, details, links and contact info
+- Shaped the wording by picking, rejecting and rewriting taglines and copy
+- Spotted problems myself (an always-empty "Done" column, repeated lines, headings hidden under the nav) and decided how to fix them
+- Tested the site on desktop and phone width, integrated and edited the code, and set up the GitHub organisation, repository, licence and deployment
 
-**AI assistance was used for:**
-- generating and refining the website's HTML, CSS and JavaScript (ChatGPT and Claude)
-- reviewing the code, finding bugs and suggesting fixes (Claude)
-- giving feedback on the concept and plan, and drafting this README (Claude)
+### AI tools used, and for what
 
-**My own contribution:**
-- the project concept, "open source in practice", and the design direction
-- the club content: events, details and links
-- testing and editing the code
-- setting up the GitHub organisation and repository
+**ChatGPT (OpenAI), the primary tool**
+- Design exploration: layout, colours, typography
+- Drafting content and code snippets for the core pages _(edit this line to match what really happened)_
+
+**Claude (Anthropic)**
+- Wrote the code for the Inside FOSSMEC and Contribute sections, the open-source strip, the footer and the Contact section
+- Suggested GitHub Issues as the way visitors submit ideas and volunteer
+- Mobile and navigation fixes, and bug spotting
+- Offered wording options (I chose and edited the final text) and drafted this README
+
+All AI output was treated as suggestions. I reviewed, adapted and tested it, and I am responsible for the final site.
 
 ## Licence
 
