@@ -723,3 +723,20 @@ nav a:hover {
 
 @media (max-width: 800px) { .contribute-grid { grid-template-columns: 1fr; } }
 @media (max-width: 600px) { .contribute-section { padding: 0 20px; } }
+
+/* MOBILE NAV: compact, still wraps */
+@media (max-width: 600px) {
+  nav {
+    gap: 6px 14px;
+    padding: 8px 10px;
+  }
+  nav a {
+    font-size: 11px;
+    padding: 4px 2px;
+  }
+}
+@media (max-width: 600px) {
+  nav { gap: 6px 14px; padding: 8px 10px; }
+  nav a { font-size: 11px; padding: 4px 2px; }
+}
+html { scroll-padding-top: 120px; }
